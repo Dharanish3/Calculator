@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Two rows: one for the input, one for the calculator */
+    gap: 30px;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 40px;
+    background-color: lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom:  40px;
+}
+
+.Calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.text-color-purple {
+    color: purple;
+}
+.text-color-red {
+    color: red;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
